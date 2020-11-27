@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         btn_login = (Button) findViewById(R.id.btn_login);
     }
     public void avanzar(View view) {
-        Intent intent = new Intent(this, Codigoqr.class);
+        Intent intent = new Intent(this, Pregunta.class);
         startActivity(intent);
     }
 }

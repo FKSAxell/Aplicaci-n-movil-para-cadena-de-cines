@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TriviaMagica">
-        <activity android:name=".Perder"></activity>
-        <activity android:name=".Codigoqr"></activity>
+        <activity android:name=".Pregunta"></activity>
+        <activity android:name=".Perder" />
+        <activity android:name=".Codigoqr" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
