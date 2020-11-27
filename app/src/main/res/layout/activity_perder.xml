@@ -43,7 +43,8 @@
         android:layout_marginTop="100px"
         android:text="Volver a jugar"
         android:onClick="volver"
-        app:backgroundTint="@color/teal_700" />
+        app:backgroundTint="@color/teal_700"
+/>
 
     <Button
         android:id="@+id/btn_salir"
