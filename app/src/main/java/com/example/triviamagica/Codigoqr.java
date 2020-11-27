@@ -9,21 +9,17 @@ import androidx.annotation.Nullable;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class codigoqr extends AppCompatActivity {
+public class Codigoqr extends AppCompatActivity {
     private Button btnSalir;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.codigoqr);
-
-
-        btnSalir.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                System.exit(0);
-            }
-        });
+        btnSalir = (Button) findViewById(R.id.button);
+    }
+    public void salir(View view) {
+        System.exit(0);
     }
 
 }
