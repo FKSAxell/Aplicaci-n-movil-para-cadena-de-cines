@@ -26,15 +26,14 @@
         tools:text="Lo siento\nha perdido" />
 
     <TextView
-        android:id="@+id/txt_2"
+        android:id="@+id/mensaje"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40px"
         android:paddingLeft="60dp"
         android:gravity="left"
-        android:text="Ha respondido 3 preguntas"
         android:textSize="18sp"
-        tools:text="Ha respondido 3 preguntas" />
+      />
 
     <Button
         android:id="@+id/btn_volver"

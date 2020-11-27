@@ -7,14 +7,18 @@ public class PreguntaPlantilla {
     private String resp3;
     private String resp4;
     private int correcta;
+    private String img;
 
-    public PreguntaPlantilla(String nombre, String resp1, String resp2, String resp3, String resp4, int correcta) {
+
+
+    public PreguntaPlantilla(String nombre, String resp1, String resp2, String resp3, String resp4, int correcta, String img) {
         this.nombre = nombre;
         this.resp1 = resp1;
         this.resp2 = resp2;
         this.resp3 = resp3;
         this.resp4 = resp4;
         this.correcta = correcta;
+        this.img = img;
     }
 
     public String getNombre() {
@@ -63,5 +67,12 @@ public class PreguntaPlantilla {
 
     public void setCorrecta(int correcta) {
         this.correcta = correcta;
+    }
+    public String getImg() {
+        return img;
+    }
+
+    public void setImg(String img) {
+        this.img = img;
     }
 }

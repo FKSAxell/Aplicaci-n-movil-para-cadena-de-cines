@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         btn_login = (Button) findViewById(R.id.btn_login);
+        if (getIntent().getBooleanExtra("EXIT", false)) {
+            finish();
+        }
     }
     public void avanzar(View view) {
         Intent intent = new Intent(this, Pregunta.class);
